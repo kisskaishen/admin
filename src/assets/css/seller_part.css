@@ -1,0 +1,43 @@
+
+
+.el-radio-group {
+	float: left;
+	padding-top: 10px;
+}
+.el-upload i {
+	display: block;
+}
+
+.el-icon-identity {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/image-count.png') no-repeat -22px -224px;
+}
+.el-icon-identity-reverse {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/image-count.png') no-repeat -292px -224px;
+}
+.el-icon-bank {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/image-count.png') no-repeat -292px -224px;
+}
+.el-icon-banner {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/shenfenzheng.png') no-repeat;
+}
+
+.tip {
+	padding-bottom: 4px;
+	// border-bottom: 1px solid #dcdcdc;
+}
+.el-form-item span {
+	float: left;
+}
+.el-form-item img {
+	float: left;
+}
+
+

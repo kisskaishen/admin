@@ -1,0 +1,77 @@
+
+.title {
+	height: 34px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.switch {
+	width: 158px;
+	line-height: 34px;
+}
+.switch a {
+	display: inline-block;
+	width: 76px;
+	height: 32px;
+	line-height: 32px;
+	color: #848484;
+	box-sizing: border-box;
+}
+.switch a.curr {
+	color: #e4393c;
+	padding-bottom: 31px;
+	text-indent: 0 !important;
+	margin-left: 0;
+	border-left: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+	border-top: 2px solid #e4393c;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+.total {
+	width: 260px;
+	line-height: 34px;
+}
+.total span {
+	padding: 0 6px;
+	color: #848484;
+}
+
+
+
+.el-radio-group {
+	float: left;
+	padding-top: 10px;
+}
+.el-upload i {
+	display: block;
+}
+.el-icon-head {
+	width: 122px;
+	height: 122px;
+	background: url('../../assets/image/image-count.png') no-repeat -612px -102px;
+}
+.el-icon-identity {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/image-count.png') no-repeat -22px -224px;
+}
+.el-icon-identity-reverse {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/image-count.png') no-repeat -294px -224px;
+}
+.el-icon-bank {
+	width: 244px;
+	height: 160px;
+	background: url('../../assets/image/image-count.png') no-repeat -560px -224px;
+}
+
+.el-upload-tip {
+	font-size: 12px;
+    color: #8391a5;
+    text-align: left;
+}
+
+.regTime {
+	background-color: #eee;
+}
