@@ -16,8 +16,7 @@ import config from '../config'
 const baseUrl = process.env.NODE_ENV === 'production' ? config.build.httpUrl1 : config.dev.httpUrl1;
 const baseUrl2 = process.env.NODE_ENV === 'production' ? config.build.httpUrl2 : config.dev.httpUrl2;
 const baseUrl3 = process.env.NODE_ENV === 'production' ? config.build.httpUrl3 : config.dev.httpUrl3;
-// http://app.28yun.com/
-// http://over.28yun.cn
+
 // admin接口
 const ajax = axios.create({
     // baseURL 自动加在 url 前面，除非 url 是一个绝对url
@@ -166,13 +165,13 @@ httpV3.interceptors.response.use(
 // uploadImage接口
 const upload = axios.create({
     // baseURL 自动加在 url 前面，除非 url 是一个绝对url
-    baseURL: 'http://112.74.172.160/public/index.php?s=/webapi/Img2/upload',
+    baseURL: 'http://112.74.172.160/public/index.php?s=/webapi/Img3/upload',
     method: 'post',
     timeout: 30000,
 
 })
 // 导出excel表格专用全局变量
-const baseURL = 'http://app.28yun.com/index.php/admin/'
+const baseURL = 'http://over.28yun.cn/index.php/admin/'
 Vue.prototype.$baseUrl = baseURL
 
 

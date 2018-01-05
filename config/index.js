@@ -9,9 +9,9 @@ module.exports = {
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         productionSourceMap: true,
-        httpUrl1: 'http://app.28yun.com/index.php/admin',
-        httpUrl2: 'http://app.28yun.com/index.php/webapi_v2',
-        httpUrl3: 'http://app.28yun.com/index.php/webapi_v3',
+        httpUrl1: 'http://over.28yun.cn/index.php/admin',
+        httpUrl2: 'http://over.28yun.cn/index.php/webapi_v2',
+        httpUrl3: 'http://over.28yun.cn/index.php/webapi_v3',
         // Gzip off by default as many popular static hosts such as
         // Surge or Netlify already gzip all static assets for you.
         // Before setting to `true`, make sure to:
@@ -35,21 +35,21 @@ module.exports = {
         httpUrl3: '/api3',
         proxyTable: {
             '/api1': {
-                target: 'http://app.28yun.com/index.php/admin',
+                target: 'http://over.28yun.cn/index.php/admin',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api1/': ''
                 }
             },
             '/api2': {
-                target: 'http://app.28yun.com/index.php/webapi_v2',
+                target: 'http://over.28yun.cn/index.php/webapi_v2',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api2/': ''
                 }
             },
             '/api3': {
-                target: 'http://app.28yun.com/index.php/webapi_v3',
+                target: 'http://over.28yun.cn/index.php/webapi_v3',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api3/': ''
